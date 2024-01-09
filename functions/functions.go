@@ -2,6 +2,6 @@ package functions
 
 import "fmt"
 
-func chapter() {
+func Chapter() {
 	fmt.Println("This is the chapter two")
 }

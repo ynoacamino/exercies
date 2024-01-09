@@ -4,6 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"math/rand"
+
+	functions "github.com/ynoacamino/exercies/functions"
 )
 
 func main() {
@@ -29,7 +31,7 @@ func main() {
 	fmt.Println(random(100))
 	fmt.Println(random(5))
 
-	chapter()
+	functions.Chapter()
 }
 
 // no autocompletes copilot
